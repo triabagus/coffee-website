@@ -458,7 +458,28 @@ img {
 }
 
 /*=============== TESTIMONIAL ===============*/
+.testimonial{
+  background: var(--first-color);
+}
+.testimonial__bg{
+  background: var(--white-color);
+  border-radius: var(--border-section);
+}
 
+.testimonial__container{
+  row-gap: 3rem;
+}
+.testimonial__data{
+  text-align: center;
+}
+.testimonial__name{
+  font-weight: var(--font-medium);
+}
+.testimonial__img{
+  width: 320px;
+  border-radius: 1rem;
+  justify-self: center;
+}
 
 /*=============== FOOTER ===============*/
 
