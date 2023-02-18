@@ -666,6 +666,13 @@ img {
   }
 }
 
+@media screen and (min-width: 400px){
+  .steps__content{
+    grid-template-columns: 325px;
+    justify-content: center;
+  }
+}
+
 /* For medium devices */
 
 
