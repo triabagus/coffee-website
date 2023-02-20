@@ -868,3 +868,36 @@ img {
     bottom: 3rem;
   }
 }
+
+@media screen and (min-width: 1152px){
+  .container{
+    margin-inline: auto;
+  }
+}
+
+@media screen and (min-width: 1248px){
+  .home__container{
+    column-gap: 4.5rem;
+  }
+  .home__img{
+    width: 550px;
+  }
+
+  .products__container{
+    column-gap: 9rem;
+  }
+
+  .about__container{
+    column-gap: 6.5rem;
+  }
+  .about__img{
+    width: 550px;
+  }
+
+  .testimonial__container{
+    column-gap: 2rem;
+  }
+  .testimonial__img{
+    width: 550px;
+  }
+}
